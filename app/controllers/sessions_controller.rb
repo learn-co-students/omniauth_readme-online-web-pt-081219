@@ -7,8 +7,6 @@ class SessionsController < ApplicationController
             u.image = auth['info']['image']
         end
 
-        debugger
-
         session[:user_id] = @user.id
 
         render 'welcome/home'
