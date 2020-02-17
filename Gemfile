@@ -1,4 +1,7 @@
 source 'https://rubygems.org'
+
+gem 'pry'
+
 gem 'dotenv-rails'
 # READS .ENV FOR GITHUBKEY AND GITHUBSECRET 
 gem 'omniauth'
